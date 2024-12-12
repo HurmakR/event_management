@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'knox',
     'django_filters',
     'events',
+    'auth_app',
 ]
 
 # REST Framework Settings
@@ -91,7 +92,7 @@ WSGI_APPLICATION = 'event_management.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': env.db()  # Використовує URL із .env
+    'default': env.db()  # Uses URL from .env
 }
 
 
