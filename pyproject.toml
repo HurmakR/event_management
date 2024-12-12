@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "event-management"
+version = "0.1.0"
+description = ""
+authors = ["HurmakR <r.hurmak@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+djangorestframework = "^3.15.2"
+django-environ = "^0.11.2"
+drf-spectacular = "^0.28.0"
+django-filter = "^24.3"
+django-rest-knox = "^5.0.2"
+psycopg2-binary = "^2.9.10"
+
+[tool.poetry.group.dev.dependencies]
+django = "^5.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

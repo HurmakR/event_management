@@ -1,0 +1,1 @@
+echo "# Event Management Project" > README.md
