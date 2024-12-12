@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_spectacular',
     'knox',
-    'django_filters'
+    'django_filters',
+    'events',
 ]
 
 # REST Framework Settings
