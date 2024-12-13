@@ -101,24 +101,6 @@ The API sends email notifications when a user successfully registers for an even
 
 ---
 
-## Environment Variables
-
-Ensure you have the following variables in your `.env` file:
-```env
-# Database configuration
-DATABASE_URL=postgres://postgres:password@db:5432/event_management
-
-# Email settings
-EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USE_TLS=True
-EMAIL_HOST_USER=your_email@gmail.com
-EMAIL_HOST_PASSWORD=your_email_password
-```
-
----
-
 ## Deployment
 
 To deploy the application, use the Docker Compose production configuration. Ensure you configure a secure database and email backend in a production environment.
